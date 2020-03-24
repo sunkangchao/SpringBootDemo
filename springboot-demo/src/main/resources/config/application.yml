@@ -1,0 +1,36 @@
+server:
+    port: 8090
+
+skc: 123
+spring:
+    messages:
+        basename: food
+#    #food:
+#  meat: 烤肉
+#  vegetable: 青椒
+#  soup: 鱼头豆腐汤
+
+
+#wyy:
+#  name1: ENC(yEcMsoMucoDc4aGo0WJcqsVJG3WLbst4)
+#  name2: ENC(YsXSR5OHtQS5bzr+z/aIMDImsXaZFK6V)
+  #这里
+#
+#
+#jasypt:
+#  encryptor:
+#    password: sljfsag
+
+
+#  spring:
+#    mvc:
+#     view:
+#      prefix: /templates/
+#      suffix: .ftl
+#
+#    spring:
+#      mvc:
+#        view:
+#          prefix: /template/
+#          suffix: .ftl
+

@@ -1,8 +1,11 @@
 package com.skc.springbootdemo;
 
+import com.skc.springbootdemo.config.SkcConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
+@EnableConfigurationProperties(SkcConfig.class)
 @SpringBootApplication
 public class SpringbootDemoApplication {
 

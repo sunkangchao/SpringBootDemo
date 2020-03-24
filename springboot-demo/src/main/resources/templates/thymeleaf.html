@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p th:text="${template}">测试</p>
+    <p th:object="${food}"><span th:text="*{meat}">静态资源</span></p>
+    <p th:object="${food}"><span th:text="*{vegetable}">静态资源</span></p>
+    <a href="thymeleaf.html" th:href="@{/hi}">点我呀</a>
+    <span th:text="#{name}">谢谢学姐</span>
+    <span th:text="#{value}">惺惺惜惺惺</span>
+    <span th:insert="footer::skc">我是王雨阳</span>
+<!--    <span th:insert="footer : : copy">slkfj</span>-->
+    <h1 th:insert="footer::skc">woshimoumoumou</h1>
+    <h1 th:replace="footer::skc">woshimoumou</h1>
+    <h1 th:include="footer::skc">woshimoumou</h1>
+
+    <div th:insert="footer :: copy"></div>
+    <div th:replace="footer :: copy"></div>
+    <div th:include="footer :: copy"></div>
+</body>
+</html>

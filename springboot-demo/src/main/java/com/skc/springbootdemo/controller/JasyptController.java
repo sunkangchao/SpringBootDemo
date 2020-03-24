@@ -1,0 +1,20 @@
+//package com.skc.springbootdemo.controller;
+//
+//import org.springframework.beans.factory.annotation.Value;
+//import org.springframework.web.bind.annotation.RequestMapping;
+//import org.springframework.web.bind.annotation.RestController;
+//
+//@RestController
+//public class JasyptController {
+//
+//    @Value("${wyy.name1}")
+//    private String name1;
+//    @Value("${wyy.name2}")
+//    private String name2;
+//
+//
+//    @RequestMapping("/jasypt")
+//    public String passJasypt(){
+//        return name1+"~~~"+name2;
+//    }
+//}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        hello
+    <table>
+        <thead><tr><th>名字</th></tr></thead>
+        <tbody>
+            <tr th:each="str:${listString}"><td th:text="${str}">ddsjlfjs</td></tr>
+        </tbody>
+    </table>
+<!--<div th:if="${xyz} != null">if执行。</div>-->
+<div th:each="map1:${map}">
+    <p th:text="${map1.get(2)}"></p>
+</div>
+</body>
+</html>
